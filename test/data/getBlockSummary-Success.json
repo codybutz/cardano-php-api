@@ -1,0 +1,22 @@
+{
+  "Right": {
+    "cbsEntry": {
+      "cbeEpoch": 38,
+      "cbeSlot": 21093,
+      "cbeBlkHash": "20fa54ea843d1624c2d42cd204c7466e83b1d66aeb370e472dfb29b2887b023a",
+      "cbeTimeIssued": 1523040951,
+      "cbeTxNum": 0,
+      "cbeTotalSent": {
+        "getCoin": "0"
+      },
+      "cbeSize": 669,
+      "cbeBlockLead": "65904a89e6d0e5f881513d1736945e051b76f095eca138ee869d543d",
+      "cbeFees": {
+        "getCoin": "0"
+      }
+    },
+    "cbsPrevHash": "b377a33afcaa5dbc8c3ee35b525347329313fbdd67a16147b494cebf8c8c6184",
+    "cbsNextHash": "e3b28bf74a388489315b6a7d08edd6fab784f58e3284921d5115d6b9d90ca663",
+    "cbsMerkleRoot": "0e5751c026e543b2e8ab2eb06099daa1d1e5df47778f7787faab45cdf12fe3a8"
+  }
+}

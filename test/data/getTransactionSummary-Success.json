@@ -1,0 +1,61 @@
+{
+  "Right": {
+    "ctsId": "9a8d6f4f9508abd23c3a3073df1dc3c1668977768c77abc3137b7ae831d25fea",
+    "ctsTxTimeIssued": 1524432171,
+    "ctsBlockTimeIssued": 1524432171,
+    "ctsBlockHeight": 911351,
+    "ctsBlockEpoch": 42,
+    "ctsBlockSlot": 4254,
+    "ctsBlockHash": "7b0a441040fc30a934170b93aa2c1648ee6b66fba5160e38e30bce3da64ab65b",
+    "ctsRelayedBy": null,
+    "ctsTotalInput": {
+      "getCoin": "2589670636193"
+    },
+    "ctsTotalOutput": {
+      "getCoin": "2589670453960"
+    },
+    "ctsFees": {
+      "getCoin": "182233"
+    },
+    "ctsInputs": [
+      [
+        "DdzFFzCqrht2E9Yqe8WYqAbo2846GxmkrCaYV71TQ7AEV6m6fGZfzVM2N7UG94PkUan2uiMusZgNbJ97jtjMPx5iPje2FDEawBDmppmr",
+        {
+          "getCoin": "2589670636193"
+        }
+      ]
+    ],
+    "ctsOutputs": [
+      [
+        "DdzFFzCqrhtCBChmP3QyAhT96XsJoSWb9QDnUGrwuVEWFbGq48DGLVsiEAqXY8KQWKXMPaXWqaUtfZmFphd89SgyzkT2tpJhKBat2mBn",
+        {
+          "getCoin": "2431471305271"
+        }
+      ],
+      [
+        "DdzFFzCqrht4jn3sL4J8marqMwVQq9TWWFiV35PiMT17b6rUhyv3mx2fqRzGkZvQnQE8za8c6dSV3HpB68hCginkAcCN1u9uBGdPJdQv",
+        {
+          "getCoin": "250748000"
+        }
+      ],
+      [
+        "DdzFFzCqrht4iYhzRgHKPzrEggjWq6UpKHLzYsvEPyjLFRNvy3XN892v51VFnviMRMr6cweDe1k9L5NqBTwrvqGuujpC7MWRXWvkn8Eo",
+        {
+          "getCoin": "536929589"
+        }
+      ],
+      [
+        "DdzFFzCqrhsvnYabi5jZ7iDEHtViXQqdq3A9Xep4R8rn7hpBta4c9DSMR8v4fCAnBkQtqZbfkX5bxpZ62ZoAnmXsvNaxTyAuMZyLo7uB",
+        {
+          "getCoin": "149667471100"
+        }
+      ],
+      [
+        "DdzFFzCqrhsqDkT2ukmusyhY724z7b7Ha9KshsSZ8y46o61cotmrUnsK8zEsiDZWKCJLzfoent1SU2EQSMin4dwzk99wNndneZ49JhJ4",
+        {
+          "getCoin": "7744000000"
+        }
+      ]
+    ]
+  }
+}

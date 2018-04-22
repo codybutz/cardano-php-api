@@ -1,0 +1,144 @@
+{
+  "Right": [
+    {
+      "cteId": "9a8d6f4f9508abd23c3a3073df1dc3c1668977768c77abc3137b7ae831d25fea",
+      "cteTimeIssued": 1524432171,
+      "cteAmount": {
+        "getCoin": "2589670453960"
+      }
+    },
+    {
+      "cteId": "f64378db84db207bf57eba6b929b3f053cd0a5ec8773a17f948d72d939bfe1e6",
+      "cteTimeIssued": 1524432011,
+      "cteAmount": {
+        "getCoin": "1223002104"
+      }
+    },
+    {
+      "cteId": "2e017e6ff55f08a6f9d9ce3c06c84482ce14ea4afa56727aa1b5742f54b421ec",
+      "cteTimeIssued": 1524419671,
+      "cteAmount": {
+        "getCoin": "865266285137"
+      }
+    },
+    {
+      "cteId": "a6a4c3f8ee941755f079899295b664e3266a3fefef34c9871ec2ba49544c8037",
+      "cteTimeIssued": 1524420231,
+      "cteAmount": {
+        "getCoin": "861669235421"
+      }
+    },
+    {
+      "cteId": "a0512bcd10843227bcbd4ba14204d6a588b247d7f049a412aaf7a704a1be747f",
+      "cteTimeIssued": 1524423111,
+      "cteAmount": {
+        "getCoin": "2595872015156"
+      }
+    },
+    {
+      "cteId": "44911085f4162a71818675b75e01dbdcfa6d137c767954bfb256b47458d5ae61",
+      "cteTimeIssued": 1524425311,
+      "cteAmount": {
+        "getCoin": "3099499649730"
+      }
+    },
+    {
+      "cteId": "efcd4d7409cf7c649a90dcafbcb7df8c60f34d40a7f236420b457efa501bc7b8",
+      "cteTimeIssued": 1524425591,
+      "cteAmount": {
+        "getCoin": "28443577303"
+      }
+    },
+    {
+      "cteId": "004eaca5ae2a9f9cd68622ab99f67ae1325c215e33076a3438e47ba7ca98903a",
+      "cteTimeIssued": 1524425671,
+      "cteAmount": {
+        "getCoin": "1259822215"
+      }
+    },
+    {
+      "cteId": "d7426af6ebf597041415338c51d5365dea97916da7fcb113615fec9e9d47c86a",
+      "cteTimeIssued": 1524425671,
+      "cteAmount": {
+        "getCoin": "544972712"
+      }
+    },
+    {
+      "cteId": "c3b7a74933d565b3ee0023fd15148fd257fbd40922056ad4558180cd8c4635f1",
+      "cteTimeIssued": 1524425671,
+      "cteAmount": {
+        "getCoin": "584217195951"
+      }
+    },
+    {
+      "cteId": "9e7167823ac1889f705b3615d6422621f1e0cfceef5772f4c5d413316466d391",
+      "cteTimeIssued": 1524425711,
+      "cteAmount": {
+        "getCoin": "4401630860"
+      }
+    },
+    {
+      "cteId": "93363128f5ca9f0c363ef1677fb15b0fe87f8d7357d0bc5e9244a6eaae7639af",
+      "cteTimeIssued": 1524426391,
+      "cteAmount": {
+        "getCoin": "87599447289"
+      }
+    },
+    {
+      "cteId": "579bbee62988b1590d1028bfcd744ec0543b77043e313c4493b7ea619e3f1d5f",
+      "cteTimeIssued": 1524426671,
+      "cteAmount": {
+        "getCoin": "2593024421722"
+      }
+    },
+    {
+      "cteId": "45011fc9f23881c775891bace3933f15df368926b6aa76b71acf93c4117da76e",
+      "cteTimeIssued": 1524430231,
+      "cteAmount": {
+        "getCoin": "52329106"
+      }
+    },
+    {
+      "cteId": "c515e5c15e60b79b510fe765b295def6f3373bd3c6c09861310daca7b44291b9",
+      "cteTimeIssued": 1524430311,
+      "cteAmount": {
+        "getCoin": "67840418846"
+      }
+    },
+    {
+      "cteId": "2a41192e3fb6867b96e6ce9160d9eae925d7343eb79ebfc630ed9cae833a9f37",
+      "cteTimeIssued": 1524430791,
+      "cteAmount": {
+        "getCoin": "1464727167"
+      }
+    },
+    {
+      "cteId": "878c8d4e40459781169c853ff9732eba51ebe58e8a633c822be2ce54eca9a16f",
+      "cteTimeIssued": 1524431071,
+      "cteAmount": {
+        "getCoin": "2054192363"
+      }
+    },
+    {
+      "cteId": "77062a667812813b7c7705c3df330553e4fe4b731d6417731442d45304927f30",
+      "cteTimeIssued": 1524431471,
+      "cteAmount": {
+        "getCoin": "89239506775"
+      }
+    },
+    {
+      "cteId": "21c09009cb37d370376ddd5b52538ef8d73ae421bdcefee65122331113b9775f",
+      "cteTimeIssued": 1524431471,
+      "cteAmount": {
+        "getCoin": "1460848734"
+      }
+    },
+    {
+      "cteId": "5d2f2a7100cc3744e783d35825c78144b49be3b5c20bf9a72d1358263799ce10",
+      "cteTimeIssued": 1524432191,
+      "cteAmount": {
+        "getCoin": "583965606976"
+      }
+    }
+  ]
+}

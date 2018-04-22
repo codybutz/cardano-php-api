@@ -1,0 +1,13 @@
+{
+  "Right": {
+    "cgsNumTotal": 14505,
+    "cgsNumRedeemed": 13212,
+    "cgsNumNotRedeemed": 1293,
+    "cgsRedeemedAmountTotal": {
+      "getCoin": "29786442256000000"
+    },
+    "cgsNonRedeemedAmountTotal": {
+      "getCoin": "1326042489000000"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "Right": [
+    {
+      "ctbId": "49078d1d99eb32d2df706bc41273bfb9e087a50126949fb9a3768ea807ff22d3",
+      "ctbTimeIssued": 1523040971,
+      "ctbInputs": [
+        [
+          "DdzFFzCqrht6kuqDpDWPWR1cF5cnB439BmUdunZGVjdqZ31bENrP8LakEy3zv5yc94yYFwz763k3a424QKz5vFthRTeicnEE8m8z8DDG",
+          {
+            "getCoin": "690834711030"
+          }
+        ]
+      ],
+      "ctbOutputs": [
+        [
+          "DdzFFzCqrhsxY4bCb9ovxSMGLdGui581JXfcBxn5TQ3kt1hKQXySC52HjksUZZgBf13HUZBDNENj2C2rDu6ADh4gGQwpTvGZmpMMxVLN",
+          {
+            "getCoin": "643334441484"
+          }
+        ],
+        [
+          "DdzFFzCqrht8CysiDhsFvQSxUj6YdnrC6ypzjhNUaF1oo4VRVLcEaTCNzuxn8iMGcaFNAPNkFySgzr9wHjiA2egatAg91yy8F7EZb9Hb",
+          {
+            "getCoin": "47500098300"
+          }
+        ]
+      ],
+      "ctbInputSum": {
+        "getCoin": "690834711030"
+      },
+      "ctbOutputSum": {
+        "getCoin": "690834539784"
+      }
+    }
+  ]
+}

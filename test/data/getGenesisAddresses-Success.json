@@ -1,0 +1,109 @@
+{
+  "Right": [
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEZHhgPpDi2g5nE1UhHn6hCqihNxwkhTgxQayQ6FwE3eKEypDZU",
+      "cgaiGenesisAmount": {
+        "getCoin": "3011269000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEYyVPUHmDGGLy75Yx4rvcZGygbYXQi4b2jP7T1qyGYhXa8JH3d",
+      "cgaiGenesisAmount": {
+        "getCoin": "8217726000000"
+      },
+      "cgaiIsRedeemed": false
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEZ4kRcdmzGCpg9AB8nEGWc3AEbEzTndnQrLSH1xEEuWX7fpZWL",
+      "cgaiGenesisAmount": {
+        "getCoin": "378561000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEZArs24o8b2PRvDGhsvkk9jJVcBBHcRCWf4sdyndQP4p86ePRQ",
+      "cgaiGenesisAmount": {
+        "getCoin": "453638000000"
+      },
+      "cgaiIsRedeemed": false
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEYwQovDJGWUDPJkbks9KkJxA1tUcAtXjpfMs13w2sCUiKapRcF",
+      "cgaiGenesisAmount": {
+        "getCoin": "833348000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEZLvFpq1McFTf7HEKuE3mtbb4QqpTA75oT9Y6bvfZ84kMU5EsZ",
+      "cgaiGenesisAmount": {
+        "getCoin": "385528000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEZKeC2CkaU1PZwacf7iui65dHjctSqXGXkhqH2sXEeXnxt5D8S",
+      "cgaiGenesisAmount": {
+        "getCoin": "384774000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEZJ1yxrvdXdS3wNprgrJ8s6i59pSVt4vAJakvat5jxFb2xjkaJ",
+      "cgaiGenesisAmount": {
+        "getCoin": "379928000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEYxjEabxxD2YRu4QGsd8KbppGbraSGXg9HjXodk6dGaypRbhXa",
+      "cgaiGenesisAmount": {
+        "getCoin": "769230000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEZ3N2AuMYpqerifycLiLPtsV8B72VgAsPjPAwrLa7xyfWBUJ2t",
+      "cgaiGenesisAmount": {
+        "getCoin": "5007593000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEZAxKViD5szxQCY1mXQCt1rWHg7woxvwadBKZWFFcTMXWPzTzP",
+      "cgaiGenesisAmount": {
+        "getCoin": "462146000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEZ3MQSR1DwRsiWqbPdx5zTiywmY1mdyYiqgQakQNsxFZFBxHvN",
+      "cgaiGenesisAmount": {
+        "getCoin": "416666000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEZHfUQniiuXPQocjXtviU8UuXTqbcrQRhyqPyxVpVKuNAMNtJ8",
+      "cgaiGenesisAmount": {
+        "getCoin": "416337000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEZEwkfDa8Y9QLsoLpYK7txQ4M2xEC5izyr6vThrJLX6JyZqWYM",
+      "cgaiGenesisAmount": {
+        "getCoin": "415901000000"
+      },
+      "cgaiIsRedeemed": true
+    },
+    {
+      "cgaiCardanoAddress": "Ae2tdPwUPEYycJ77DaXcWEdM3jaSBg2HgmK9jT1HmBzeLJ94x8mRw33xpBM",
+      "cgaiGenesisAmount": {
+        "getCoin": "389217000000"
+      },
+      "cgaiIsRedeemed": true
+    }
+  ]
+}
