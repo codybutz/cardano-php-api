@@ -1,6 +1,12 @@
 {
   "name": "codybutz/cardano-php-api",
   "version": "0.0.1",
+  "keywords": [
+    "cardano",
+    "php",
+    "guzzle",
+    "cardano-explorer"
+  ],
   "description": "An open-source project to allow users to connect to the Cardano API using PHP.",
   "authors": [
     {
@@ -13,7 +19,6 @@
     "guzzlehttp/guzzle": "^6.3",
     "stephenhill/base58": "^1.1"
   },
-
   "require-dev": {
     "phpunit/phpunit": "^7.0",
     "cvuorinen/phpdoc-markdown-public": "^0.2.0"
