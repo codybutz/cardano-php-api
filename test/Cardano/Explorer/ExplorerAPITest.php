@@ -18,8 +18,6 @@ use Butz\Cardano\Explorer\Models\TransactionSummary;
  * Class ExplorerAPITest
  * @package Butz\Test\Cardano\Explorer
  *
- *
- *
  */
 class ExplorerAPITest extends ExplorerTestBase
 {
@@ -513,8 +511,6 @@ class ExplorerAPITest extends ExplorerTestBase
         $this->assertNotNull($summary->getTotalOutput());
         $this->assertNotNull($summary->getInputs());
         $this->assertNotNull($summary->getOutputs());
-
-
 
         foreach ($summary->getInputs() as $input) {
             $this->transactionIoTest($input);
