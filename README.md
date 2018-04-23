@@ -41,3 +41,9 @@ This code is licensed under the MIT License
 ## Submitting bugs and feature requests
 
 If any problems are found please email me at codyjbutz@gmail.com or submit an issue to this repository.
+
+## Donations
+
+Any donations are very much appreciated :) 
+
+ADA Address: `DdzFFzCqrhstC3R3qTJFzvcGYJqxiTGCY4WVZ2fU2Gw9kva2aUYrz83QcTmKDGfK4YceUiip1eP75NwUDyP17jofpHrNbo3WB84NcN5W`
