@@ -19,13 +19,6 @@
  * IN THE SOFTWARE.
  */
 
-/**
- * Created by PhpStorm.
- * User: codybutz
- * Date: 4/23/18
- * Time: 9:16 PM
- */
-
 namespace Butz\Cardano\Explorer\Models;
 
 /**
