@@ -4,6 +4,7 @@
 
 * [AddressNotFoundException](#addressnotfoundexception)
 * [AddressSummary](#addresssummary)
+    * [jsonSerialize](#jsonserialize)
     * [fromRequest](#fromrequest)
     * [getAddress](#getaddress)
     * [getType](#gettype)
@@ -11,7 +12,10 @@
     * [getBalance](#getbalance)
     * [getTxList](#gettxlist)
     * [isRedeemed](#isredeemed)
+* [BaseModel](#basemodel)
+    * [jsonSerialize](#jsonserialize-1)
 * [BlockEntry](#blockentry)
+    * [jsonSerialize](#jsonserialize-2)
     * [fromResponse](#fromresponse)
     * [getEpoch](#getepoch)
     * [getSlot](#getslot)
@@ -23,16 +27,19 @@
     * [getBlockLead](#getblocklead)
     * [getFees](#getfees)
 * [BlockPageSummary](#blockpagesummary)
+    * [jsonSerialize](#jsonserialize-3)
     * [fromResponse](#fromresponse-1)
     * [getTotalSlots](#gettotalslots)
     * [getEntries](#getentries)
 * [BlockSummary](#blocksummary)
+    * [jsonSerialize](#jsonserialize-4)
     * [fromResponse](#fromresponse-2)
     * [getEntry](#getentry)
     * [getPrevHash](#getprevhash)
     * [getNextHash](#getnexthash)
     * [getMerkleRoot](#getmerkleroot)
 * [Coin](#coin)
+    * [jsonSerialize](#jsonserialize-5)
     * [fromRequest](#fromrequest-1)
     * [getCoin](#getcoin)
 * [ExplorerAPI](#explorerapi)
@@ -49,11 +56,13 @@
     * [getTransactionSummary](#gettransactionsummary)
 * [ExplorerException](#explorerexception)
 * [GenesisAddressInfo](#genesisaddressinfo)
+    * [jsonSerialize](#jsonserialize-6)
     * [fromRequest](#fromrequest-2)
     * [getAddress](#getaddress-1)
     * [getAmount](#getamount)
     * [isRedeemed](#isredeemed-1)
 * [GenesisSummary](#genesissummary)
+    * [jsonSerialize](#jsonserialize-7)
     * [fromRequest](#fromrequest-3)
     * [getTotal](#gettotal)
     * [getRedeemed](#getredeemed)
@@ -61,6 +70,7 @@
     * [getAmountRedeemed](#getamountredeemed)
     * [getAmountNotRedeemed](#getamountnotredeemed)
 * [TransactionBrief](#transactionbrief)
+    * [jsonSerialize](#jsonserialize-8)
     * [fromRequest](#fromrequest-4)
     * [getId](#getid)
     * [getTimeIssued](#gettimeissued-1)
@@ -69,15 +79,18 @@
     * [getInputs](#getinputs)
     * [getOutputs](#getoutputs)
 * [TransactionEntry](#transactionentry)
+    * [jsonSerialize](#jsonserialize-9)
     * [fromRequest](#fromrequest-5)
     * [getId](#getid-1)
     * [getTimeIssued](#gettimeissued-2)
     * [getAmount](#getamount-1)
 * [TransactionIO](#transactionio)
+    * [jsonSerialize](#jsonserialize-10)
     * [fromRequest](#fromrequest-6)
     * [getAddress](#getaddress-2)
     * [getCoin](#getcoin-1)
 * [TransactionSummary](#transactionsummary)
+    * [jsonSerialize](#jsonserialize-11)
     * [fromRequest](#fromrequest-7)
     * [getId](#getid-2)
     * [getTimeIssued](#gettimeissued-3)
@@ -110,7 +123,24 @@ Class AddressSummary
 
 
 * Full name: \Butz\Cardano\Explorer\Models\AddressSummary
+* Parent class: \Butz\Cardano\Explorer\Models\BaseModel
 
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+AddressSummary::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
 
 ### fromRequest
 
@@ -230,6 +260,32 @@ AddressSummary::isRedeemed(  ): boolean
 
 ---
 
+## BaseModel
+
+Class BaseModel
+
+
+
+* Full name: \Butz\Cardano\Explorer\Models\BaseModel
+* This class implements: \JsonSerializable
+
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+BaseModel::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
+
 ## BlockEntry
 
 Class BlockEntry
@@ -237,7 +293,24 @@ Class BlockEntry
 
 
 * Full name: \Butz\Cardano\Explorer\Models\BlockEntry
+* Parent class: \Butz\Cardano\Explorer\Models\BaseModel
 
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+BlockEntry::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
 
 ### fromResponse
 
@@ -412,7 +485,24 @@ Class BlockPageSummary
 
 
 * Full name: \Butz\Cardano\Explorer\Models\BlockPageSummary
+* Parent class: \Butz\Cardano\Explorer\Models\BaseModel
 
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+BlockPageSummary::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
 
 ### fromResponse
 
@@ -475,7 +565,24 @@ Class BlockSummary
 
 
 * Full name: \Butz\Cardano\Explorer\Models\BlockSummary
+* Parent class: \Butz\Cardano\Explorer\Models\BaseModel
 
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+BlockSummary::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
 
 ### fromResponse
 
@@ -570,7 +677,24 @@ Class Coin
 
 
 * Full name: \Butz\Cardano\Explorer\Models\Coin
+* Parent class: \Butz\Cardano\Explorer\Models\BaseModel
 
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+Coin::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
 
 ### fromRequest
 
@@ -833,7 +957,7 @@ ExplorerAPI::getLastTxs(  ): array
 
 ### getTransactionSummary
 
-Get information about the N latest transactions.
+Get information about a particular transaction.
 
 ```php
 ExplorerAPI::getTransactionSummary(  $txid ): \Butz\Cardano\Explorer\Models\TransactionSummary
@@ -870,7 +994,24 @@ Class GenesisAddressInfo
 
 
 * Full name: \Butz\Cardano\Explorer\Models\GenesisAddressInfo
+* Parent class: \Butz\Cardano\Explorer\Models\BaseModel
 
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+GenesisAddressInfo::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
 
 ### fromRequest
 
@@ -949,7 +1090,24 @@ Class GenesisSummary
 
 
 * Full name: \Butz\Cardano\Explorer\Models\GenesisSummary
+* Parent class: \Butz\Cardano\Explorer\Models\BaseModel
 
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+GenesisSummary::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
 
 ### fromRequest
 
@@ -1060,7 +1218,24 @@ Class TransactionBrief
 
 
 * Full name: \Butz\Cardano\Explorer\Models\TransactionBrief
+* Parent class: \Butz\Cardano\Explorer\Models\BaseModel
 
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+TransactionBrief::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
 
 ### fromRequest
 
@@ -1187,7 +1362,24 @@ Class TransactionEntry
 
 
 * Full name: \Butz\Cardano\Explorer\Models\TransactionEntry
+* Parent class: \Butz\Cardano\Explorer\Models\BaseModel
 
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+TransactionEntry::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
 
 ### fromRequest
 
@@ -1266,7 +1458,24 @@ Class TransactionIO
 
 
 * Full name: \Butz\Cardano\Explorer\Models\TransactionIO
+* Parent class: \Butz\Cardano\Explorer\Models\BaseModel
 
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+TransactionIO::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
 
 ### fromRequest
 
@@ -1329,7 +1538,24 @@ Class TransactionSummary
 
 
 * Full name: \Butz\Cardano\Explorer\Models\TransactionSummary
+* Parent class: \Butz\Cardano\Explorer\Models\BaseModel
 
+
+### jsonSerialize
+
+Specify data which should be serialized to JSON
+
+```php
+TransactionSummary::jsonSerialize(  ): object
+```
+
+
+
+
+
+
+
+---
 
 ### fromRequest
 
@@ -1564,4 +1790,4 @@ TransactionSummary::getOutputs(  ): array
 
 
 --------
-> This document was automatically generated from source code comments on 2018-04-22 using [phpDocumentor](http://www.phpdoc.org/) and [cvuorinen/phpdoc-markdown-public](https://github.com/cvuorinen/phpdoc-markdown-public)
+> This document was automatically generated from source code comments on 2018-04-24 using [phpDocumentor](http://www.phpdoc.org/) and [cvuorinen/phpdoc-markdown-public](https://github.com/cvuorinen/phpdoc-markdown-public)

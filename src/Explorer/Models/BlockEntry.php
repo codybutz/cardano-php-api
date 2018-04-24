@@ -25,7 +25,7 @@ namespace Butz\Cardano\Explorer\Models;
  * Class BlockEntry
  * @package Butz\Cardano\Explorer\Models
  */
-class BlockEntry
+class BlockEntry extends BaseModel
 {
 
     /**

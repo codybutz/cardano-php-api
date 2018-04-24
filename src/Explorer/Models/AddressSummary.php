@@ -25,7 +25,7 @@ namespace Butz\Cardano\Explorer\Models;
  * Class AddressSummary
  * @package Butz\Cardano\Explorer\Models
  */
-class AddressSummary
+class AddressSummary extends BaseModel
 {
 
     /**

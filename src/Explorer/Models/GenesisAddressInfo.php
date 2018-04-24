@@ -25,7 +25,7 @@ namespace Butz\Cardano\Explorer\Models;
  * Class GenesisAddressInfo
  * @package Butz\Cardano\Explorer\Models
  */
-class GenesisAddressInfo
+class GenesisAddressInfo extends BaseModel
 {
     /**
      * @var string The Genesis Address
@@ -33,7 +33,7 @@ class GenesisAddressInfo
     private $address;
 
     /**
-     * @var Coin
+     * @var Coin the amount held in the Genesis Address
      */
     private $amount;
 

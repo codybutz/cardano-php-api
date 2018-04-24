@@ -19,73 +19,31 @@
  * IN THE SOFTWARE.
  */
 
+/**
+ * Created by PhpStorm.
+ * User: codybutz
+ * Date: 4/23/18
+ * Time: 9:16 PM
+ */
+
 namespace Butz\Cardano\Explorer\Models;
 
 /**
- * Class BlockPageSummary
+ * Class BaseModel
  * @package Butz\Cardano\Explorer\Models
+ *
+ * Allows the models to include a JSON Serializable interface.
  */
-class BlockPageSummary extends BaseModel
+class BaseModel implements \JsonSerializable
 {
 
     /**
-     * The total number of slots created to date.
+     * Specify data which should be serialized to JSON
      *
-     * @var string
+     * @return object
      */
-    private $totalSlots;
-
-    /**
-     * All the entries from the response.
-     *
-     * @var array
-     */
-    private $entries = [];
-
-    /**
-     * BlockPageSummary constructor.
-     */
-    private function __construct()
+    public function jsonSerialize()
     {
-        // Empty
-    }
-
-    /**
-     * Transforms an API response into a BlockPageSummary.
-     *
-     * @param $data
-     * @return BlockPageSummary
-     */
-    public static function fromResponse($data)
-    {
-        $summary = new BlockPageSummary();
-
-        $summary->totalSlots = $data[0];
-
-        foreach ($data[1] as $entry) {
-            $summary->entries[] = BlockEntry::fromResponse($entry);
-        }
-
-        return $summary;
-    }
-
-    /**
-     * The total slots
-     *
-     * @return string
-     */
-    public function getTotalSlots()
-    {
-        return $this->totalSlots;
-    }
-
-    /**
-     * The entries
-     *
-     * @return array
-     */
-    public function getEntries()
-    {
-        return $this->entries;
+        return get_object_vars($this);
     }
 }

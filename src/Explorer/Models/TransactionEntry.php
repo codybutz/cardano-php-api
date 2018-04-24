@@ -25,7 +25,7 @@ namespace Butz\Cardano\Explorer\Models;
  * Class TransactionEntry
  * @package Butz\Cardano\Explorer\Models
  */
-class TransactionEntry
+class TransactionEntry extends BaseModel
 {
     /**
      * The id

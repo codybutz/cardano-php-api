@@ -25,7 +25,7 @@ namespace Butz\Cardano\Explorer\Models;
  * Class TransactionSummary
  * @package Butz\Cardano\Explorer\Models
  */
-class TransactionSummary
+class TransactionSummary extends BaseModel
 {
     /**
      * The id

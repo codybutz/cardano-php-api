@@ -25,7 +25,7 @@ namespace Butz\Cardano\Explorer\Models;
  * Class Coin
  * @package Butz\Cardano\Explorer\Models
  */
-class Coin
+class Coin extends BaseModel
 {
     /**
      * The coin

@@ -25,7 +25,7 @@ namespace Butz\Cardano\Explorer\Models;
  * Class GenesisSummary
  * @package Butz\Cardano\Explorer\Models
  */
-class GenesisSummary
+class GenesisSummary extends BaseModel
 {
 
     /**

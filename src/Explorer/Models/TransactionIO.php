@@ -25,7 +25,7 @@ namespace Butz\Cardano\Explorer\Models;
  * Class TransactionIO
  * @package Butz\Cardano\Explorer\Models
  */
-class TransactionIO
+class TransactionIO extends BaseModel
 {
     /**
      * The address
