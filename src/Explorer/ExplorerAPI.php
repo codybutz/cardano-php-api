@@ -173,7 +173,7 @@ class ExplorerAPI
             'pageSize' => $pageSize
         ]);
 
-        $data = $this->getExplorer('addresses/address/blocks?' . $query);
+        $data = $this->getExplorer('blocks/pages?' . $query);
 
         return BlockPageSummary::fromResponse($data->Right);
     }
