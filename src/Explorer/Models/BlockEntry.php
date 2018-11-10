@@ -212,4 +212,12 @@ class BlockEntry extends BaseModel
     {
         return $this->fees;
     }
+
+    /**
+     * @return array An Array version of the model.
+     */
+    function toArray()
+    {
+        return get_object_vars($this);
+    }
 }

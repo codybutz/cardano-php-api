@@ -97,4 +97,12 @@ class GenesisAddressInfo extends BaseModel
     {
         return $this->redeemed;
     }
+
+    /**
+     * @return array An Array version of the model.
+     */
+    function toArray()
+    {
+        return get_object_vars($this);
+    }
 }

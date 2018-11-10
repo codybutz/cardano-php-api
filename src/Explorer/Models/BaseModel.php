@@ -27,7 +27,7 @@ namespace Butz\Cardano\Explorer\Models;
  *
  * Allows the models to include a JSON Serializable interface.
  */
-class BaseModel implements \JsonSerializable
+abstract class BaseModel implements \JsonSerializable
 {
 
     /**
@@ -37,6 +37,8 @@ class BaseModel implements \JsonSerializable
      */
     public function jsonSerialize()
     {
-        return get_object_vars($this);
+        return $this->toArray();
     }
+
+    abstract function toArray();
 }

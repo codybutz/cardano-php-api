@@ -32,6 +32,7 @@ use Butz\Cardano\Explorer\Models\TransactionBrief;
 use Butz\Cardano\Explorer\Models\TransactionEntry;
 use Butz\Cardano\Explorer\Models\TransactionSummary;
 use GuzzleHttp\Client;
+use GuzzleHttp\Handler\CurlHandler;
 use GuzzleHttp\HandlerStack;
 use function GuzzleHttp\Psr7\build_query;
 
@@ -76,6 +77,11 @@ class ExplorerAPI
      */
     public function __construct(HandlerStack $handler = null)
     {
+
+        if (!isset($handler)) {
+            $handler = HandlerStack::create(new CurlHandler()); // Wrap w/ middleware
+        }
+
         $this->client = new Client([
             // Base URI is the public Cardano Explorer API.
             'base_uri' => self::$baseUri,
@@ -191,7 +197,7 @@ class ExplorerAPI
             'pageSize' => $pageSize
         ]);
 
-        $data = $this->getExplorer('addresses/address/blocks/total?' . $query);
+        $data = $this->getExplorer('blocks/pages/total?' . $query);
 
         return $data->Right;
     }

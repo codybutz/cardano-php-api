@@ -33,7 +33,6 @@
         stopOnFailure="false"
         stopOnIncomplete="false"
         stopOnSkipped="false"
-        syntaxCheck="false"
         verbose="false">
     <testsuites>
         <testsuite name="Cardano API Explorer Tests">
